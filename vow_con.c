@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+  char chr;
+  scanf("%c",&chr);
+  if(chr=='a'||chr=='e'||chr=='i'||chr=='o'||chr=='u')
+  {
+    printf("Vowel");
+  }
+  else if(chr=='@'||chr=='#'||chr=='$'||chr=='%'||chr=='&')
+      {
+      printf("invalid");
+      }
+  else
+  {
+      printf("consonant");
+  }
+    
+  
+  return 0;
+}
